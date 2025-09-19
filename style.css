@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #7092be;
+    color: #ffffff;
+}
+
+header {
+    background-color: #4d6482;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.office {
+    width: 300px;
+    height: auto; 
+}
+.scranton {
+    width: 600px;
+    height: auto; 
+}
+
+.bike, .prof, .soccer, .win, .church {
+    vertical-align: top;
+    float: right;
+    width: 200px;
+    padding: 20px;
+    height: auto; 
+}
+
+ul {
+    list-style-type: square; /* Options: disc, circle, square, none */
+}
